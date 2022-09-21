@@ -5,7 +5,7 @@ function App() {
   return (
    <div class="App">
     <h1>React Bootstrap</h1>
-    <Button variant="primary">Primary</Button>
+    <Button variant="primary" onClick={() => console.log('Hola')}>Primary</Button>
    </div>
   );
 }
